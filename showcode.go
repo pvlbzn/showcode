@@ -4,6 +4,7 @@ import (
 	"./coder"
 )
 
+// Tejh
 func main() {
-	coder.Code("./colorcode.go")
+	coder.Code("./showcode.go")
 }
