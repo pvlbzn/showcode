@@ -3,8 +3,9 @@
 package main
 
 import (
-	"./coder"
 	"flag"
+
+	"github.com/pvlbzn/showcode/coder"
 )
 
 var (
