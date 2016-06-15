@@ -83,7 +83,7 @@ func calculate(l int) (int, int, int) {
 
 func (m *Img) write(s string) {
 	// Add magic numbers
-	magic := fmt.Sprintf("P3 %d %d 255 ", m.W, m.H)
+	magic := fmt.Sprintf("P3 %d %d 155 ", m.W, m.H)
 	magic += s
 	magic = magic[:len(magic)-1]
 
