@@ -20,7 +20,7 @@ func Code(path string) {
 	str := toStr(f)
 	columns, rows, offset := calculate(length)
 
-	fmt.Println(length, columns, rows, offset)
+	//fmt.Println(length, columns, rows, offset)
 	m := &Img{columns, rows, offset}
 	m.write(str)
 }
@@ -90,8 +90,6 @@ func (m *Img) write(s string) {
 	for i := m.Offset; i > 0; i-- {
 		magic += " 0 "
 	}
-
-	fmt.Println(magic)
 
 	f, err := os.Create("output.ppm")
 	if err != nil {

@@ -4,7 +4,8 @@ import (
 	"./coder"
 )
 
-// Tejh
+// Tejhsdfs
 func main() {
 	coder.Code("./showcode.go")
+	coder.Decode("./output.ppm")
 }
